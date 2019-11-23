@@ -25,6 +25,7 @@ Need a system that improves password security for employees with access to sensi
 [`Document.getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 [`Element.setAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
 [`Node.appendChild()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+[`Document.createTextNode()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode)
 [`HTMLElement.focus()`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus)
 [`HTMLInputElement.select()`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/select)
 [`Document.execCommand()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand)
