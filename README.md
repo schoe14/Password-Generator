@@ -5,7 +5,7 @@ Designed to generate a random password in 8 - 128 length.
 Need a system that improves password security for employees with access to sensitive data.
 
 # Screenshots
-![Image of PasswordGenerator](https://snipboard.io/xSrE4G.jpg)
+<a href="https://schoe14.github.io/Password-Generator/"><img src=https://snipboard.io/xSrE4G.jpg></a>
 
 # Tech/framework used
 1. JavaScript
@@ -20,6 +20,7 @@ Need a system that improves password security for employees with access to sensi
 1. Google Drive
 
 # API Reference
+[`GlobalEventHandlers.onclick`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick)
 [`Document.createElement()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
 [`Document.getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 [`Element.setAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
