@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Password Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header fixed-top justify-content-center"
+        style="width: 100%; color: #5fd4ff; background-color: #ffffff;">
+        <h1 class="text-center" style="font-weight: bold">Password Generator</h1>
+    </div>
+    <div class="bg">
+        <div class="container content p-3" style="max-width: 960px;">
+            <h2>Generate a Password</h2>
+            <div class="container mainContent p-4" id="parent">
+                <p>Your Secure Password</p>
+            </div>
+            <div class="container-fluid buttons p-3">
+                <input id="pwdFunctionCall" type="button" class="btn btn-info button1" value="Generate Password"
+                    onclick="findLength();" />
+                <input id="copyToClipboard" type="button" class="btn btn-info button2" value="Copy to Clipboard"
+                    onclick="copyPassword();" />
+            </div>
+        </div>
+    </div>
+    <div class="footer fixed-bottom text-center"
+        style="width: 100%; height: auto; color: #5fd4ff; background-color: #ffffff;">
+        <h6 id="footerText">Seohui Choe</h6>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
